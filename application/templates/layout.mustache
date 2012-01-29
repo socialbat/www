@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{html.head.title}}</title>
+        {{{html.head.metas}}}
+        {{{html.head.styles}}}
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                This is the header
+            </header>
+            <aside>
+                This is the aside
+            </aside>
+            <section>
+                {{>content}}
+            </section>
+            <footer>
+                This is the footer
+            </footer>
+        </div>
+    {{{html.scripts}}}
+    </body>
+</html>

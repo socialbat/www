@@ -1,0 +1,1 @@
+//Some JS functions for Socialbat
